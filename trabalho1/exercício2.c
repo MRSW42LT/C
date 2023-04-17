@@ -246,12 +246,12 @@ void sair() {
     exit(0); // sai do programa
 }
 
-void voltar() {
-    clrscr();
-    return executar_menu();
-}
-
 void clrscr() // limpa a tela, função retirada da internet
 {
     system("clear||@cls");
+}
+
+void voltar() {
+    clrscr();
+    return executar_menu();
 }
